@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.25)  10 NOV 2025 16:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.25)  10 NOV 2025 16:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -605,7 +605,17 @@ Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \extratabsurround=\skip69
 \backup@length=\skip70
 \ar@cellbox=\box87
-)) (C:\Users\jacop\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\jacop\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+))
+
+Package siunitx Info: Option "detect-all" has been deprecated in this release.
+(siunitx)             
+(siunitx)             Use "mode = match, propagate-math-font = true,
+(siunitx)             reset-math-version = false, reset-text-family = false,
+(siunitx)             reset-text-series = false, reset-text-shape = false,
+(siunitx)             text-family-to-math = true, text-series-to-math = true"
+(siunitx)             as a replacement.
+
+ (C:\Users\jacop\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\jacop\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
 Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Users\jacop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
@@ -657,8 +667,8 @@ File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Users\jacop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (C:\Users\jacop\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemeserif.sty)
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 76.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 76.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 81.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 81.
  (C:\Users\jacop\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 ) (C:\Users\jacop\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
@@ -667,24 +677,24 @@ File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 ) (migration and monopsony in italy.aux)
 \openout1 = `"migration and monopsony in italy.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -739,7 +749,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\jacop\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 76.
+Package hyperref Info: Link coloring OFF on input line 81.
  (migration and monopsony in italy.out) (migration and monopsony in italy.out)
 \@outlinefile=\write5
 \openout5 = `"migration and monopsony in italy.out"'.
@@ -759,7 +769,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 ) (C:\Users\jacop\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 76.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 81.
  (migration and monopsony in italy.nav)
 
 [1
@@ -769,20 +779,20 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
 [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 142.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 147.
  (C:\Users\jacop\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 142.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 147.
  (C:\Users\jacop\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (10.05527pt too wide) in paragraph at lines 142--142
+Overfull \hbox (10.05527pt too wide) in paragraph at lines 147--147
  [][] 
  []
 
 
-Overfull \hbox (10.05527pt too wide) in paragraph at lines 142--142
+Overfull \hbox (10.05527pt too wide) in paragraph at lines 147--147
  [][] 
  []
 
@@ -792,7 +802,7 @@ Overfull \hbox (10.05527pt too wide) in paragraph at lines 142--142
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 193.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 198.
 
 
 [4
@@ -806,13 +816,13 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 [6
 
 ]
-Overfull \hbox (3.66661pt too wide) detected at line 303
-$\OT1/cmr/m/n/6 100$
+Overfull \hbox (3.33595pt too wide) detected at line 308
+[]
  []
 
 
-Overfull \hbox (3.66661pt too wide) detected at line 303
-$\OT1/cmr/m/n/6 100$
+Overfull \hbox (3.33595pt too wide) detected at line 308
+[]
  []
 
 
@@ -820,8 +830,8 @@ $\OT1/cmr/m/n/6 100$
 [7
 
 ]
-Overfull \hbox (3.66661pt too wide) detected at line 349
-$\OT1/cmr/m/n/6 100$
+Overfull \hbox (3.33595pt too wide) detected at line 354
+[]
  []
 
 
@@ -829,30 +839,30 @@ $\OT1/cmr/m/n/6 100$
 [8
 
 ]
-<images/wage_by_status.png, id=81, 1365.1pt x 819.06pt>
+<images/wage_by_status.png, id=79, 1365.1pt x 819.06pt>
 File: images/wage_by_status.png Graphic file (type png)
 <use images/wage_by_status.png>
-Package pdftex.def Info: images/wage_by_status.png  used on input line 361.
+Package pdftex.def Info: images/wage_by_status.png  used on input line 366.
 (pdftex.def)             Requested size: 261.19826pt x 156.71033pt.
 
 
 [9
 
  <./images/wage_by_status.png (PNG copy)>]
-<images/irregolari_vs_regolari.png, id=86, 1285.80376pt x 770.88pt>
+<images/irregolari_vs_regolari.png, id=84, 1285.80376pt x 770.88pt>
 File: images/irregolari_vs_regolari.png Graphic file (type png)
 <use images/irregolari_vs_regolari.png>
-Package pdftex.def Info: images/irregolari_vs_regolari.png  used on input line 369.
+Package pdftex.def Info: images/irregolari_vs_regolari.png  used on input line 374.
 (pdftex.def)             Requested size: 261.19826pt x 156.59637pt.
 
 
 [10
 
  <./images/irregolari_vs_regolari.png (PNG copy)>]
-<images/wage_gap_relative_to_citizens.png, id=92, 1285.80376pt x 770.88pt>
+<images/wage_gap_relative_to_citizens.png, id=90, 1285.80376pt x 770.88pt>
 File: images/wage_gap_relative_to_citizens.png Graphic file (type png)
 <use images/wage_gap_relative_to_citizens.png>
-Package pdftex.def Info: images/wage_gap_relative_to_citizens.png  used on input line 377.
+Package pdftex.def Info: images/wage_gap_relative_to_citizens.png  used on input line 382.
 (pdftex.def)             Requested size: 261.19826pt x 156.59637pt.
 
 
@@ -893,17 +903,17 @@ Package rerunfilecheck Info: File `"migration and monopsony in italy".out' has n
 (rerunfilecheck)             Checksum: A3D249CD3800E0C86C91FD18690A32CC;436.
  ) 
 Here is how much of TeX's memory you used:
- 28959 strings out of 468130
- 621172 string characters out of 5430633
- 990037 words of memory out of 5000000
- 57016 multiletter control sequences out of 15000+600000
+ 28973 strings out of 468130
+ 621626 string characters out of 5430633
+ 991136 words of memory out of 5000000
+ 57030 multiletter control sequences out of 15000+600000
  662164 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,14n,123p,558b,1031s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on "migration and monopsony in italy.pdf" (15 pages, 371560 bytes).
+<C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on "migration and monopsony in italy.pdf" (15 pages, 350759 bytes).
 PDF statistics:
- 180 PDF objects out of 1000 (max. 8388607)
+ 170 PDF objects out of 1000 (max. 8388607)
  35 named destinations out of 1000 (max. 500000)
  90 words of extra memory for PDF output out of 10000 (max. 10000000)
 
