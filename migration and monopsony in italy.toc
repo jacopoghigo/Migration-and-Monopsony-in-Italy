@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Descriptives}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Tables}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Graphs}{11}{0}{1}
+\beamer@subsectionintoc {1}{3}{Wage Gap Estimation}{12}{0}{1}

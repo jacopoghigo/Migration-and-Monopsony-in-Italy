@@ -1,0 +1,358 @@
+\documentclass[11pt]{beamer}
+
+% Theme and Color Settings
+\usetheme{default}
+\usecolortheme{default}
+
+% Define Petrol Blue as main color
+\definecolor{PetrolBlue}{RGB}{0,82,120}
+\setbeamercolor{structure}{fg=PetrolBlue}
+\setbeamercolor{palette primary}{bg=PetrolBlue,fg=white}
+\setbeamercolor{palette secondary}{bg=PetrolBlue!80,fg=white}
+\setbeamercolor{palette tertiary}{bg=PetrolBlue!60,fg=white}
+\setbeamercolor{frametitle}{bg=PetrolBlue,fg=white}
+\setbeamercolor{title}{fg=PetrolBlue}
+\setbeamercolor{subtitle}{fg=PetrolBlue}
+\setbeamercolor{author}{fg=black}
+\setbeamercolor{institute}{fg=black}
+\setbeamercolor{date}{fg=black}
+\setbeamercolor{itemize item}{fg=PetrolBlue}
+\setbeamercolor{itemize subitem}{fg=PetrolBlue}
+\setbeamercolor{enumerate item}{fg=PetrolBlue}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}  % Latin Modern font for cleaner, thinner characters
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{hyperref}
+\usepackage{etoolbox}  % Required for \AtBeginEnvironment
+
+% Use sans-serif LIGHT font for tables (more academic and less crowded)
+\AtBeginEnvironment{tabular}{\sffamily\fontseries{l}\selectfont}
+
+% Set overall font to be lighter/thinner
+\renewcommand{\familydefault}{\sfdefault}
+\usefonttheme{structurebold}  % Only headings are bold
+
+% Remove navigation symbols
+\setbeamertemplate{navigation symbols}{}
+
+% Custom footline with empty fields and frame numbers
+\setbeamertemplate{footline}{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.5ex,dp=1ex,center]{author in head/foot}%
+    \usebeamerfont{author in head/foot}% Empty - add text here if needed
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.5ex,dp=1ex,center]{title in head/foot}%
+    \usebeamerfont{title in head/foot}% Empty - add text here if needed
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.5ex,dp=1ex,right]{date in head/foot}%
+    \usebeamerfont{date in head/foot}\hspace*{2em}
+    \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+
+% Set colors for footline
+\setbeamercolor{author in head/foot}{bg=PetrolBlue!20,fg=PetrolBlue}
+\setbeamercolor{title in head/foot}{bg=PetrolBlue!10,fg=PetrolBlue}
+\setbeamercolor{date in head/foot}{bg=PetrolBlue!20,fg=PetrolBlue}
+
+% Title Information
+\title{Migration and Monopsony}
+\subtitle{Evidence from ISMU Data 2001-2021}
+\author{}
+\institute{Your Institution}
+\date{\today}
+
+\begin{document}
+
+% Title Slide
+\begin{frame}[plain,noframenumbering]
+\titlepage
+\end{frame}
+
+% Table of Contents
+\begin{frame}{Outline}
+\tableofcontents
+\end{frame}
+
+\setcounter{framenumber}{0}
+
+% Descriptives Section
+\section{Descriptives}
+\subsection{Tables}
+
+\begin{frame}
+    \frametitle{Wage Differences}
+    
+\centering
+\renewcommand{\arraystretch}{1.1}
+\tiny
+\input{descriptive_table1.tex}
+    
+\end{frame}
+
+
+\begin{frame}
+    \frametitle{Wage Differences}
+    
+\centering
+\renewcommand{\arraystretch}{1.1}
+\tiny
+\input{descriptive_table2.tex}
+    
+\end{frame}
+
+\begin{frame}
+    \frametitle{Wage Differences}
+    
+\centering
+\renewcommand{\arraystretch}{1.1}
+\tiny
+\input{descriptive_table3.tex}
+    
+\end{frame}
+
+
+
+
+
+
+
+
+\begin{frame}
+    \frametitle{Wage Differences}
+    
+\begin{table}[h]
+\centering
+\renewcommand{\arraystretch}{1.1}
+\tiny
+\begin{tabular}{@{\extracolsep{3pt}}l *{3}{S[table-format=4.0]}@{}}
+\toprule
+& {\textbf{Cittadino o Equiparabile}} & {\textbf{Regolare}} & {\textbf{Irregolare}} \\
+\midrule
+\addlinespace[0.1ex]
+\multicolumn{4}{@{}l}{\emph{Gender}} \\
+\addlinespace[0.05ex]
+\quad Male   & 1341 & 1162 & 892 \\
+\quad Female & 981  & 895  & 812 \\
+\addlinespace[0.15ex]
+\midrule
+\addlinespace[0.1ex]
+\multicolumn{4}{@{}l}{\emph{Education}} \\
+\addlinespace[0.05ex]
+\quad Nessun titolo       & 1173 & 1054 & 786 \\
+\quad Scuola dell'obbligo & 1190 & 1078 & 872 \\
+\quad Scuola superiore    & 1177 & 1048 & 862 \\
+\quad Laurea e similari   & 1236 & 1074 & 912 \\
+\addlinespace[0.15ex]
+\midrule
+\addlinespace[0.1ex]
+\multicolumn{4}{@{}l}{\emph{Geographical Area}} \\
+\addlinespace[0.05ex]
+\quad Subsaharan Africa              & 1165 & 1031 & 710 \\
+\quad East Asia (and pacific)        & 1211 & 1014 & 875 \\
+\quad Eastern Europe \& Central Asia & 1166 & 1083 & 918 \\
+\quad Latin America                  & 1070 & 988  & 875 \\
+\quad Middle East \& North Africa    & 1253 & 1122 & 893 \\
+\quad South Asia                     & 1269 & 1069 & 741 \\
+\addlinespace[0.1ex]
+\bottomrule
+\end{tabular}
+\caption{Wage Means by Legal Status (Part 1)}
+\end{table}
+    
+\end{frame}
+
+
+\begin{frame}
+    \frametitle{Wage Differences (cont.)}
+    
+\begin{table}[h]
+\centering
+\renewcommand{\arraystretch}{1.1}
+\tiny
+\begin{tabular}{@{\extracolsep{3pt}}l *{3}{S[table-format=4.0]}@{}}
+\toprule
+& {\textbf{Cittadino o Equiparabile}} & {\textbf{Regolare}} & {\textbf{Irregolare}} \\
+\midrule
+\addlinespace[0.1ex]
+\multicolumn{4}{@{}l}{\emph{Age}} \\
+\addlinespace[0.05ex]
+\quad 21--29 & 1088 & 900  & 140 \\
+\quad 30--44 & 1067 & 954  & 786 \\
+\quad 45--59 & 1201 & 1068 & 884 \\
+\quad 60+    & 1244 & 1142 & 890 \\
+\addlinespace[0.15ex]
+\midrule
+\addlinespace[0.1ex]
+\multicolumn{4}{@{}l}{\emph{Years Since Migration}} \\
+\addlinespace[0.05ex]
+\quad 0--2   & 972  & 886  & 841  \\
+\quad 3--10  & 1109 & 1061 & 883  \\
+\quad 11--20 & 1249 & 1199 & 967  \\
+\quad 21+    & 1315 & 1201 & 1247 \\
+\addlinespace[0.15ex]
+\midrule
+\addlinespace[0.1ex]
+\multicolumn{4}{@{}l}{\emph{Labour Market Status}} \\
+\addlinespace[0.05ex]
+\quad Employed      & 1138 & 1041 & 875 \\
+\quad Self-employed & 1627 & 1438 & 694 \\
+\quad Unemployed    & 1317 & 811  & 616 \\
+\quad Inactive      & 1416 & 932  & 800 \\
+\addlinespace[0.1ex]
+\bottomrule
+\end{tabular}
+\caption{Wage Means by Legal Status (Part 2)}
+\end{table}
+    
+\end{frame}
+
+
+\begin{frame}
+    \frametitle{Wage Differences (cont.)}
+    
+\begin{table}[h]
+\centering
+\renewcommand{\arraystretch}{1.1}
+\tiny
+\begin{tabular}{@{\extracolsep{3pt}}l *{3}{S[table-format=4.0]}@{}}
+\toprule
+& {\textbf{Cittadino o Equiparabile}} & {\textbf{Regolare}} & {\textbf{Irregolare}} \\
+\midrule
+\addlinespace[0.1ex]
+\multicolumn{4}{@{}l}{\emph{Province}} \\
+\addlinespace[0.05ex]
+\quad Varese         & 1229 & 1056 & 870 \\
+\quad Como           & 1261 & 1064 & 860 \\
+\quad Sondrio        & 1152 & 1006 & 949 \\
+\quad Milano         & 1157 & 1034 & 870 \\
+\quad Bergamo        & 1193 & 1048 & 849 \\
+\quad Brescia        & 1235 & 1102 & 844 \\
+\quad Pavia          & 1114 & 1137 & 906 \\
+\quad Cremona        & 1189 & 1123 & 878 \\
+\quad Mantova        & 1193 & 1072 & 765 \\
+\quad Lecco          & 1183 & 1083 & 827 \\
+\quad Lodi           & 1184 & 1051 & 852 \\
+\quad Monza e Brianza & 1167 & 951  & 833 \\
+\addlinespace[0.1ex]
+\bottomrule
+\end{tabular}
+\caption{Wage Means by Legal Status (Part 3)}
+\end{table}
+    
+\end{frame}
+
+\begin{frame}
+    \frametitle{Distribution by Education and Employment (\%)}
+    
+\begin{table}[h]
+\centering
+\renewcommand{\arraystretch}{1.1}
+\tiny
+\begin{tabular}{@{\extracolsep{3pt}}l *{4}{S[table-format=2.2]}@{}}
+\toprule
+& {\textbf{Cittadino}} & {\textbf{Regolare}} & {\textbf{Irregolare}} & {\textbf{Total}} \\
+\midrule
+\addlinespace[0.1ex]
+\multicolumn{5}{@{}l}{\emph{Level of Education}} \\
+\addlinespace[0.05ex]
+\quad Nessun titolo       & 2.30  & 4.24  & 0.91  & 7.45 \\
+\quad Scuola dell'obbligo & 12.08 & 21.00 & 3.33  & 36.40 \\
+\quad Scuola superiore    & 17.59 & 21.39 & 3.45  & 42.44 \\
+\quad Laurea e similari   & 6.38  & 6.41  & 0.91  & 13.71 \\
+\quad Total               & 38.35 & 53.04 & 8.60  & 100.00 \\
+\addlinespace[0.15ex]
+\midrule
+\addlinespace[0.1ex]
+\multicolumn{5}{@{}l}{\emph{Labour Market Status}} \\
+\addlinespace[0.05ex]
+\quad Employed      & 33.94 & 49.15 & 7.88 & 90.97 \\
+\quad Self-employed & 3.89  & 3.27  & 0.57 & 7.73 \\
+\quad Unemployed    & 0.20  & 0.22  & 0.04 & 0.46 \\
+\quad Inactive      & 0.38  & 0.45  & 0.01 & 0.85 \\
+\quad Total         & 38.40 & 53.09 & 8.51 & 100.00 \\
+\addlinespace[0.1ex]
+\bottomrule
+\end{tabular}
+\caption{Distribution by Education and Labour Market Status}
+\end{table}
+    
+\end{frame}
+
+
+\begin{frame}
+    \frametitle{Distribution by Occupation Type (\%)}
+    
+\begin{table}[h]
+\centering
+\renewcommand{\arraystretch}{1.05}
+\tiny
+\begin{tabular}{@{\extracolsep{2pt}}l *{4}{S[table-format=2.2]}@{}}
+\toprule
+& {\textbf{Cittadino}} & {\textbf{Regolare}} & {\textbf{Irregolare}} & {\textbf{Total}} \\
+\midrule
+\addlinespace[0.05ex]
+\multicolumn{5}{@{}l}{\emph{Type of Work}} \\
+\addlinespace[0.03ex]
+\quad Operai generici nell'industria         & 6.45  & 7.46  & 0.32 & 14.24 \\
+\quad Operai generici nel terziario          & 3.23  & 3.58  & 0.23 & 7.04 \\
+\quad Operai specializzati                   & 1.60  & 2.57  & 0.27 & 4.45 \\
+\quad Operai edili                           & 3.96  & 5.31  & 1.33 & 10.60 \\
+\quad Operai agricoli e assimilati           & 1.39  & 2.23  & 0.42 & 4.04 \\
+\quad Addetti alle pulizie                   & 1.80  & 2.55  & 0.28 & 4.63 \\
+\quad Impiegati esecutivi e di concetto      & 1.41  & 0.72  & 0.03 & 2.16 \\
+\quad Addetti alle vendite e servizi         & 1.60  & 1.46  & 0.12 & 3.18 \\
+\quad Titolari/esercenti attività comm.      & 1.92  & 1.75  & 0.61 & 4.27 \\
+\quad Addetti alla ristorazione/alberghi     & 4.40  & 5.94  & 0.46 & 10.79 \\
+\quad Mestieri artigianali                   & 2.13  & 2.47  & 0.44 & 5.04 \\
+\quad Addetti ai trasporti                   & 1.66  & 1.43  & 0.09 & 3.18 \\
+\quad Domestici fissi                        & 0.91  & 1.68  & 0.22 & 2.81 \\
+\quad Domestici ad ore                       & 2.21  & 3.32  & 0.64 & 6.16 \\
+\quad Assistenti domiciliari (badanti)       & 2.26  & 3.97  & 1.04 & 7.28 \\
+\quad Baby sitter                            & 0.44  & 1.27  & 0.27 & 1.98 \\
+\quad Assistenti socio-assistenziali (OSS)   & 1.39  & 0.76  & 0.03 & 2.18 \\
+\quad Medici e paramedici                    & 0.98  & 0.50  & 0.01 & 1.49 \\
+\quad Intellettuali                          & 1.77  & 0.62  & 0.01 & 2.40 \\
+\quad Prostituzione                          & 0.20  & 0.20  & 0.02 & 0.43 \\
+\quad Sportivi                               & 0.05  & 0.06  & 0.04 & 0.16 \\
+\quad Altro                                  & 0.71  & 0.60  & 0.17 & 1.49 \\
+\quad Total                                  & 42.49 & 50.46 & 7.05 & 100.00 \\
+\addlinespace[0.05ex]
+\bottomrule
+\end{tabular}
+\caption{Distribution by Type of Work}
+\end{table}
+    
+\end{frame}
+
+
+
+\subsection{Graphs}
+
+\begin{frame}
+    \frametitle{Graphs}
+    
+\end{frame}
+
+\subsection{Wage Gap Estimation}
+
+\begin{frame}
+    \frametitle{Regression Results}
+    
+\tiny
+\input{wage_gap_estimation_1.tex}
+    
+\end{frame}
+
+
+\end{document}
