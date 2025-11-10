@@ -92,9 +92,19 @@
 
 \setcounter{framenumber}{0}
 
-% Descriptives Section
-\section{Descriptives}
+
+
 \subsection{Tables}
+
+% Subsection title slide
+\begin{frame}[plain]
+\vfill
+\centering
+\begin{beamercolorbox}[sep=8pt,center]{title}
+\usebeamerfont{title}\Large Tables
+\end{beamercolorbox}
+\vfill
+\end{frame}
 
 \begin{frame}
     \frametitle{Sample Size by Legal Status and Year}
@@ -144,6 +154,16 @@
 \end{tabular}
 \end{minipage}
     
+\end{frame}
+
+\begin{frame}
+    \frametitle{Wage Differences}
+    In the three slides that follow, we present mean wages by legal status, where the latter distinguishes between:
+    \begin{itemize}
+        \item \textbf{Citizen or Equivalent}: Citizens and those with long-term residence permits.
+        \item \textbf{Regular}: Temporary residence permits, asylum seekers (both in safe and risk countries).
+        \item \textbf{Irregular}: Individuals without legal residence status.
+    \end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -271,6 +291,140 @@
 \end{frame}
 
 \begin{frame}
+    \frametitle{Wage Differences by Detailed Legal Status}
+    We'll now present the same mean wages by a more detailed legal status classification, which distinguishes between:
+    \begin{itemize}
+        \item \textbf{Citizen}: Citizens.
+        \item \textbf{Temp. Permit}: Temporary residence permits (two categories).
+        \item \textbf{Asylum (S)}: Asylum seekers from safe countries.
+        \item \textbf{Asylum (R)}: Asylum seekers from risky countries.
+        \item \textbf{Irregular}: Individuals without legal residence status.
+        \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Wage Differences by Detailed Legal Status}
+    
+\begin{table}[h]
+\centering
+\renewcommand{\arraystretch}{1.05}
+\fontsize{5}{6}\selectfont
+\begin{tabular}{@{}l *{6}{S[table-format=4.0]}@{}}
+\toprule
+& {\textbf{Citizen}} & {\textbf{Temp. P.}} & {\textbf{Temp. P.}} & {\textbf{Asyl. (S)}} & {\textbf{Asyl. (R)}} & {\textbf{Irreg.}} \\
+\midrule
+\addlinespace[0.1ex]
+\multicolumn{7}{@{}l}{\emph{Gender}} \\
+\addlinespace[0.05ex]
+\quad Male   & 1304 & 1093 & 1038 & 831 & 783 & 799 \\
+\quad Female & 944  & 845  & 847  & 782 & 763 & 764 \\
+\addlinespace[0.15ex]
+\midrule
+\addlinespace[0.1ex]
+\multicolumn{7}{@{}l}{\emph{Education}} \\
+\addlinespace[0.05ex]
+\quad Nessun titolo       & 1155 & 996  & 936  & 801 & 853 & 740 \\
+\quad Scuola dell'obbligo & 1167 & 1011 & 942  & 828 & 758 & 777 \\
+\quad Scuola superiore    & 1138 & 997  & 978  & 803 & 761 & 797 \\
+\quad Laurea e similari   & 1202 & 1026 & 1014 & 883 & 817 & 829 \\
+\addlinespace[0.15ex]
+\midrule
+\addlinespace[0.1ex]
+\multicolumn{7}{@{}l}{\emph{Age}} \\
+\addlinespace[0.05ex]
+\quad 21--29 & 711  & 760  & 898  & 644  & 680  & 609 \\
+\quad 30--44 & 1039 & 943  & 920  & 790  & 690  & 756 \\
+\quad 45--59 & 1179 & 1018 & 992  & 826  & 808  & 794 \\
+\quad 60+    & 1220 & 1032 & 970  & 855  & 853  & 814 \\
+\addlinespace[0.15ex]
+\midrule
+\addlinespace[0.1ex]
+\multicolumn{7}{@{}l}{\emph{Years Since Migration}} \\
+\addlinespace[0.05ex]
+\quad 0--2   & 938  & 854  & 848  & 761  & 721  & 737 \\
+\quad 3--10  & 1087 & 1008 & 968  & 847  & 807  & 838 \\
+\quad 11--20 & 1205 & 1088 & 1057 & 916  & 923  & 882 \\
+\quad 21+    & 1244 & 1149 & 1152 & 400  & 1400 & 1000 \\
+\addlinespace[0.1ex]
+\bottomrule
+\end{tabular}
+\caption{Wage Means by Detailed Legal Status (Part 1)}
+\end{table}
+    
+\end{frame}
+
+\begin{frame}
+    \frametitle{Wage Differences by Detailed Legal Status (cont.)}
+    
+\begin{table}[h]
+\centering
+\renewcommand{\arraystretch}{1.05}
+\fontsize{5}{6}\selectfont
+\begin{tabular}{@{}l *{6}{S[table-format=4.0]}@{}}
+\toprule
+& {\textbf{Citizen}} & {\textbf{Temp. P.}} & {\textbf{Temp. P.}} & {\textbf{Asyl. (S)}} & {\textbf{Asyl. (R)}} & {\textbf{Irreg.}} \\
+\midrule
+\addlinespace[0.1ex]
+\multicolumn{7}{@{}l}{\emph{Geographical Area}} \\
+\addlinespace[0.05ex]
+\quad Subsaharan Africa              & 1125 & 957  & 907  & 749 & 714 & 650 \\
+\quad East Asia (and pacific)        & 1150 & 972  & 955  & {--} & 813 & 817 \\
+\quad Eastern Europe \& Central Asia & 1127 & 1025 & 991  & 899 & 880 & 845 \\
+\quad Latin America                  & 1040 & 943  & 923  & {--} & 789 & 788 \\
+\quad Middle East \& North Africa    & 1227 & 1063 & 1012 & 789 & 757 & 823 \\
+\quad South Asia                     & 1260 & 1024 & 970  & {--} & 743 & 692 \\
+\addlinespace[0.15ex]
+\midrule
+\addlinespace[0.1ex]
+\multicolumn{7}{@{}l}{\emph{Labour Market Status}} \\
+\addlinespace[0.05ex]
+\quad Employed      & 1121 & 987  & 953  & 825 & 768 & 796 \\
+\quad Self-employed & 1510 & 1313 & 1188 & 765 & 991 & 662 \\
+\quad Unemployed    & 697  & 620  & 500  & 250 & 380 & 400 \\
+\quad Inactive      & 691  & 573  & 733  & 520 & 350 & 500 \\
+\addlinespace[0.1ex]
+\bottomrule
+\end{tabular}
+\caption{Wage Means by Detailed Legal Status (Part 2)}
+\end{table}
+    
+\end{frame}
+
+\begin{frame}
+    \frametitle{Wage Differences by Detailed Legal Status (cont.)}
+    
+\begin{table}[h]
+\centering
+\renewcommand{\arraystretch}{1.05}
+\fontsize{5}{6}\selectfont
+\begin{tabular}{@{}l *{6}{S[table-format=4.0]}@{}}
+\toprule
+& {\textbf{Citizen}} & {\textbf{Temp. P.}} & {\textbf{Temp. P.}} & {\textbf{Asyl. (S)}} & {\textbf{Asyl. (R)}} & {\textbf{Irreg.}} \\
+\midrule
+\addlinespace[0.1ex]
+\multicolumn{7}{@{}l}{\emph{Province}} \\
+\addlinespace[0.05ex]
+\quad Varese         & 1173 & 1009 & 985  & 808 & 791 & 796 \\
+\quad Como           & 1232 & 1028 & 913  & 871 & 790 & 775 \\
+\quad Sondrio        & 1123 & 992  & 895  & 682 & 792 & 905 \\
+\quad Milano         & 1136 & 1000 & 989  & 857 & 787 & 800 \\
+\quad Bergamo        & 1143 & 962  & 930  & 785 & 695 & 797 \\
+\quad Brescia        & 1205 & 1026 & 994  & 656 & 676 & 757 \\
+\quad Pavia          & 1089 & 1036 & 930  & 900 & 895 & 763 \\
+\quad Cremona        & 1182 & 1047 & 1018 & 866 & 827 & 829 \\
+\quad Mantova        & 1148 & 1013 & 942  & 797 & 649 & 733 \\
+\quad Lecco          & 1154 & 994  & 950  & 827 & 846 & 778 \\
+\quad Lodi           & 1142 & 976  & 948  & 654 & 732 & 709 \\
+\quad Monza e Brianza & 1143 & 910  & 910  & 650 & 708 & 739 \\
+\addlinespace[0.1ex]
+\bottomrule
+\end{tabular}
+\caption{Wage Means by Detailed Legal Status (Part 3)}
+\end{table}
+    
+\end{frame}
+
+\begin{frame}
     \frametitle{Distribution by Education and Employment (\%)}
     
 \begin{table}[h]
@@ -357,6 +511,16 @@
 
 \subsection{Graphs}
 
+% Subsection title slide
+\begin{frame}[plain]
+\vfill
+\centering
+\begin{beamercolorbox}[sep=8pt,center]{title}
+\usebeamerfont{title}\Large Graphs
+\end{beamercolorbox}
+\vfill
+\end{frame}
+
 \begin{frame}
     \frametitle{Mean Monthly Wage by Legal Status, 2001-2021}
     
@@ -391,6 +555,16 @@
 \end{frame}
 
 \subsection{Wage Gap Estimation}
+
+% Subsection title slide
+\begin{frame}[plain]
+\vfill
+\centering
+\begin{beamercolorbox}[sep=8pt,center]{title}
+\usebeamerfont{title}\Large Wage Gap Estimation
+\end{beamercolorbox}
+\vfill
+\end{frame}
 
 \begin{frame}
     \frametitle{Wage Gap Estimation}

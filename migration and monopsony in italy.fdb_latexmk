@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1762790315.97687 "c:/Users/jacop/Dropbox/Monopsony and Migration in Italy/Data/ISMU - Osservatorio/ISMU 2001-2013/analisi_2025/slides/Migration-and-Monopsony-in-Italy/migration and monopsony in italy.tex" "migration and monopsony in italy.pdf" "migration and monopsony in italy" 1762790321.59514 0
+["pdflatex"] 1762794572.74818 "c:/Users/jacop/Dropbox/Monopsony and Migration in Italy/Data/ISMU - Osservatorio/ISMU 2001-2013/analisi_2025/slides/Migration-and-Monopsony-in-Italy/migration and monopsony in italy.tex" "migration and monopsony in italy.pdf" "migration and monopsony in italy" 1762794575.19703 0
   "C:/Users/jacop/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1762785687 82845 61cd0b62b4b3ff8abe9a94ac0f89d652 ""
   "C:/Users/jacop/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1758806476 13286966 9b1e14b04ff872186c0241c4c8382aff ""
   "C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -35,6 +35,7 @@
   "C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247596667 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1247596667 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
+  "C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1247596673 31764 459c573c03a4949a528c2cc7f557e217 ""
   "C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb" 1136849748 35941 adef23a721dd8354a4a2bf4434f1c484 ""
   "C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb" 1136849748 44648 23115b2a545ebfe2c526c3ca99db8b95 ""
   "C:/Users/jacop/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb" 1136849748 48169 065450055814ce4dfc30f7922d24ab30 ""
@@ -220,15 +221,15 @@
   "C:/Users/jacop/AppData/Local/Programs/MiKTeX/tex/latex/translator/translator.sty" 1622471510 8765 56d370785f0143111ff9898b5adfe08e ""
   "C:/Users/jacop/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/jacop/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "c:/Users/jacop/Dropbox/Monopsony and Migration in Italy/Data/ISMU - Osservatorio/ISMU 2001-2013/analisi_2025/slides/Migration-and-Monopsony-in-Italy/migration and monopsony in italy.tex" 1762790315 16813 00e8fec49033f9d537e9c0f0c3aa3d1a ""
+  "c:/Users/jacop/Dropbox/Monopsony and Migration in Italy/Data/ISMU - Osservatorio/ISMU 2001-2013/analisi_2025/slides/Migration-and-Monopsony-in-Italy/migration and monopsony in italy.tex" 1762794569 23203 e5346b521b8de0a406853cff2f2100e0 ""
   "images/irregolari_vs_regolari.png" 1762782704 73595 b3eba4e7c23d4772fe57821a64dff8d9 ""
   "images/wage_by_status.png" 1762356428 80014 8d23a10304785cc65e6f3eb6f644929e ""
   "images/wage_gap_relative_to_citizens.png" 1762782704 80299 4bb60a4f46f29c819d46b344d775a066 ""
-  "migration and monopsony in italy.aux" 1762790321 3421 9e28fe06b45911a2ea4ba3b902184b56 "pdflatex"
-  "migration and monopsony in italy.nav" 1762790321 2188 1b312114d1c36ba7663f207f16b71743 "pdflatex"
-  "migration and monopsony in italy.out" 1762790321 436 a3d249cd3800e0c86c91fd18690a32cc "pdflatex"
-  "migration and monopsony in italy.tex" 1762790315 16813 00e8fec49033f9d537e9c0f0c3aa3d1a ""
-  "migration and monopsony in italy.toc" 1762790321 206 5359e7eec1a393c604a82acb761806bb "pdflatex"
+  "migration and monopsony in italy.aux" 1762794574 4237 516e945b625e7c2021b49bd9c16e2cda "pdflatex"
+  "migration and monopsony in italy.nav" 1762794574 2835 dd703d3a233ca9795848397d499663a9 "pdflatex"
+  "migration and monopsony in italy.out" 1762794574 304 74abfdfbcca3c915e814aa91f7732903 "pdflatex"
+  "migration and monopsony in italy.tex" 1762794569 23203 e5346b521b8de0a406853cff2f2100e0 ""
+  "migration and monopsony in italy.toc" 1762794574 159 fe578b69083cb062e122c623b5f2cfb9 "pdflatex"
   "wage_gap_estimation_1.tex" 1762790193 3546 709afeecdc385996d5cd33fa3d0662b6 ""
   (generated)
   "migration and monopsony in italy.aux"
