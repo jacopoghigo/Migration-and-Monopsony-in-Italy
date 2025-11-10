@@ -1,6 +1,6 @@
-PWD c:\Users\jacop\Dropbox\Monopsony and Migration in Italy\Data\ISMU - Osservatorio\ISMU 2001-2013\analisi_2025\slides
+PWD c:\Users\jacop\Dropbox\Monopsony and Migration in Italy\Data\ISMU - Osservatorio\ISMU 2001-2013\analisi_2025\slides\Migration-and-Monopsony-in-Italy
 INPUT C:\Users\jacop\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\jacop\Dropbox\Monopsony and Migration in Italy\Data\ISMU - Osservatorio\ISMU 2001-2013\analisi_2025\slides\migration and monopsony in italy.tex
+INPUT c:\Users\jacop\Dropbox\Monopsony and Migration in Italy\Data\ISMU - Osservatorio\ISMU 2001-2013\analisi_2025\slides\Migration-and-Monopsony-in-Italy\migration and monopsony in italy.tex
 OUTPUT migration and monopsony in italy.log
 INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beamer.cls
 INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beamer.cls
@@ -429,21 +429,31 @@ INPUT descriptive_table3.tex
 INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmss10.tfm
 INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
 INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
+INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmss10.tfm
+INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmss8.tfm
+INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi10.tfm
+INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi8.tfm
+INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
+INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy8.tfm
+INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmsso10.tfm
+INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmsso8.tfm
+INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
+INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
 INPUT .\wage_gap_estimation_1.tex
 INPUT .\wage_gap_estimation_1.tex
 INPUT wage_gap_estimation_1.tex
-INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmss8.tfm
-INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi8.tfm
-INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy8.tfm
-INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmsso8.tfm
 OUTPUT migration and monopsony in italy.nav
 OUTPUT migration and monopsony in italy.toc
 OUTPUT migration and monopsony in italy.snm
 INPUT migration and monopsony in italy.aux
 INPUT .\migration and monopsony in italy.out
 INPUT .\migration and monopsony in italy.out
+INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
+INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
 INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi6.pfb
 INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi6.pfb
 INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
@@ -454,5 +464,11 @@ INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss8.p
 INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss8.pfb
 INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmssbx10.pfb
 INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmssbx10.pfb
+INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsso10.pfb
+INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsso10.pfb
 INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsso8.pfb
 INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsso8.pfb
+INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy8.pfb
+INPUT C:\Users\jacop\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy8.pfb

@@ -347,7 +347,24 @@
 \subsection{Wage Gap Estimation}
 
 \begin{frame}
-    \frametitle{Regression Results}
+    \frametitle{Wage Gap Estimation}
+    
+In the following slides, we present the results for the estimation of the wage gap between native and migrant workers according to the following specification:
+
+\vspace{0.5cm}
+
+\begin{equation*}
+\ln(w_{it}) = \alpha + \beta \cdot \text{LS}_{i} + \gamma' X_{it} + \delta_t + \delta_p + \varepsilon_{it}
+\end{equation*}
+
+\vspace{0.3cm}
+
+where $\ln(w_{it})$ denotes the log wage for individual $i$ at time $t$, $\text{LS}_i$ is a categorical variable for legal status distinguishing between citizens or equivalent, regular migrants, and irregular migrants, $X_{it}$ represents a vector of individual characteristics, $\delta_t$ captures time fixed effects, and $\delta_p$ captures province fixed effects.
+    
+\end{frame}
+
+\begin{frame}
+    \frametitle{Wage Gap Estimation}
     
 \tiny
 \input{wage_gap_estimation_1.tex}
