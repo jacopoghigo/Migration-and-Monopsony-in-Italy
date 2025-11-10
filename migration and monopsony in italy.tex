@@ -23,7 +23,8 @@
 % Packages
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{lmodern}  % Latin Modern font for cleaner, thinner characters
+\usepackage{helvet}  % Helvetica - clean, thin sans-serif font
+\renewcommand{\familydefault}{\sfdefault}
 \usepackage{amsmath,amssymb,amsthm}
 \usepackage{graphicx}
 \usepackage{booktabs}
@@ -33,12 +34,12 @@
 \usepackage{hyperref}
 \usepackage{etoolbox}  % Required for \AtBeginEnvironment
 
-% Use sans-serif LIGHT font for tables (more academic and less crowded)
-\AtBeginEnvironment{tabular}{\sffamily\fontseries{l}\selectfont}
-
-% Set overall font to be lighter/thinner
-\renewcommand{\familydefault}{\sfdefault}
-\usefonttheme{structurebold}  % Only headings are bold
+% Use light font weight throughout
+\usefonttheme[onlymath]{serif}
+\setbeamerfont{normal text}{family=\sffamily,series=\mdseries}
+\setbeamerfont{frametitle}{family=\sffamily,series=\bfseries}
+\setbeamerfont{title}{family=\sffamily,series=\bfseries}
+\AtBeginDocument{\normalfont\sffamily}
 
 % Remove navigation symbols
 \setbeamertemplate{navigation symbols}{}
@@ -93,77 +94,46 @@
 \begin{frame}
     \frametitle{Wage Differences}
     
-\centering
-\renewcommand{\arraystretch}{1.1}
-\tiny
-\input{descriptive_table1.tex}
-    
-\end{frame}
-
-
-\begin{frame}
-    \frametitle{Wage Differences}
-    
-\centering
-\renewcommand{\arraystretch}{1.1}
-\tiny
-\input{descriptive_table2.tex}
-    
-\end{frame}
-
-\begin{frame}
-    \frametitle{Wage Differences}
-    
-\centering
-\renewcommand{\arraystretch}{1.1}
-\tiny
-\input{descriptive_table3.tex}
-    
-\end{frame}
-
-
-
-
-
-
-
-
-\begin{frame}
-    \frametitle{Wage Differences}
-    
 \begin{table}[h]
 \centering
 \renewcommand{\arraystretch}{1.1}
 \tiny
-\begin{tabular}{@{\extracolsep{3pt}}l *{3}{S[table-format=4.0]}@{}}
+\begin{tabular}{@{\extracolsep{3pt}}l *{3}{S[table-format=4.2]}@{}}
 \toprule
 & {\textbf{Cittadino o Equiparabile}} & {\textbf{Regolare}} & {\textbf{Irregolare}} \\
 \midrule
 \addlinespace[0.1ex]
 \multicolumn{4}{@{}l}{\emph{Gender}} \\
 \addlinespace[0.05ex]
-\quad Male   & 1341 & 1162 & 892 \\
-\quad Female & 981  & 895  & 812 \\
+\quad Male   & 1303.84 & 1074.53 & 799.24 \\
+\quad Female & 943.76  & 842.38  & 763.68 \\
 \addlinespace[0.15ex]
 \midrule
 \addlinespace[0.1ex]
 \multicolumn{4}{@{}l}{\emph{Education}} \\
 \addlinespace[0.05ex]
-\quad Nessun titolo       & 1173 & 1054 & 786 \\
-\quad Scuola dell'obbligo & 1190 & 1078 & 872 \\
-\quad Scuola superiore    & 1177 & 1048 & 862 \\
-\quad Laurea e similari   & 1236 & 1074 & 912 \\
+\quad Nessun titolo       & 1154.71 & 981.49 & 739.65 \\
+\quad Scuola dell'obbligo & 1166.82 & 994.37 & 776.61 \\
+\quad Scuola superiore    & 1137.95 & 985.47 & 796.58 \\
+\quad Laurea e similari   & 1201.94 & 1017.01 & 829.14 \\
 \addlinespace[0.15ex]
 \midrule
 \addlinespace[0.1ex]
-\multicolumn{4}{@{}l}{\emph{Geographical Area}} \\
+\multicolumn{4}{@{}l}{\emph{Age}} \\
 \addlinespace[0.05ex]
-\quad Subsaharan Africa              & 1165 & 1031 & 710 \\
-\quad East Asia (and pacific)        & 1211 & 1014 & 875 \\
-\quad Eastern Europe \& Central Asia & 1166 & 1083 & 918 \\
-\quad Latin America                  & 1070 & 988  & 875 \\
-\quad Middle East \& North Africa    & 1253 & 1122 & 893 \\
-\quad South Asia                     & 1269 & 1069 & 741 \\
+\quad 21--29 & 710.87  & 757.72  & 609.09 \\
+\quad 30--44 & 1038.50 & 926.58  & 755.88 \\
+\quad 45--59 & 1179.41 & 1007.95 & 794.09 \\
+\quad 60+    & 1219.92 & 1021.01 & 813.61 \\
+\addlinespace[0.15ex]
+\midrule
+\addlinespace[0.1ex]
+\multicolumn{4}{@{}l}{\emph{Years Since Migration}} \\
+\addlinespace[0.05ex]
+\quad 0--2   & 938.41  & 835.32  & 737.30 \\
+\quad 3--10  & 1086.80 & 997.74  & 837.53 \\
+\quad 11--20 & 1205.12 & 1084.02 & 881.60 \\
+\quad 21+    & 1244.46 & 1147.61 & 1000.00 \\
 \addlinespace[0.1ex]
 \bottomrule
 \end{tabular}
@@ -180,35 +150,28 @@
 \centering
 \renewcommand{\arraystretch}{1.1}
 \tiny
-\begin{tabular}{@{\extracolsep{3pt}}l *{3}{S[table-format=4.0]}@{}}
+\begin{tabular}{@{\extracolsep{3pt}}l *{3}{S[table-format=4.2]}@{}}
 \toprule
 & {\textbf{Cittadino o Equiparabile}} & {\textbf{Regolare}} & {\textbf{Irregolare}} \\
 \midrule
 \addlinespace[0.1ex]
-\multicolumn{4}{@{}l}{\emph{Age}} \\
+\multicolumn{4}{@{}l}{\emph{Geographical Area}} \\
 \addlinespace[0.05ex]
-\quad 21--29 & 1088 & 900  & 140 \\
-\quad 30--44 & 1067 & 954  & 786 \\
-\quad 45--59 & 1201 & 1068 & 884 \\
-\quad 60+    & 1244 & 1142 & 890 \\
-\addlinespace[0.15ex]
-\midrule
-\addlinespace[0.1ex]
-\multicolumn{4}{@{}l}{\emph{Years Since Migration}} \\
-\addlinespace[0.05ex]
-\quad 0--2   & 972  & 886  & 841  \\
-\quad 3--10  & 1109 & 1061 & 883  \\
-\quad 11--20 & 1249 & 1199 & 967  \\
-\quad 21+    & 1315 & 1201 & 1247 \\
+\quad Subsaharan Africa              & 1124.90 & 941.66  & 649.90 \\
+\quad East Asia (and pacific)        & 1149.79 & 965.71  & 817.36 \\
+\quad Eastern Europe \& Central Asia & 1127.42 & 1015.88 & 845.37 \\
+\quad Latin America                  & 1040.50 & 933.84  & 788.20 \\
+\quad Middle East \& North Africa    & 1226.83 & 1046.67 & 822.88 \\
+\quad South Asia                     & 1259.69 & 1007.93 & 692.12 \\
 \addlinespace[0.15ex]
 \midrule
 \addlinespace[0.1ex]
 \multicolumn{4}{@{}l}{\emph{Labour Market Status}} \\
 \addlinespace[0.05ex]
-\quad Employed      & 1138 & 1041 & 875 \\
-\quad Self-employed & 1627 & 1438 & 694 \\
-\quad Unemployed    & 1317 & 811  & 616 \\
-\quad Inactive      & 1416 & 932  & 800 \\
+\quad Employed      & 1121.04 & 975.37  & 795.72 \\
+\quad Self-employed & 1509.55 & 1288.92 & 662.24 \\
+\quad Unemployed    & 697.09  & 556.33  & 400.00 \\
+\quad Inactive      & 691.22  & 578.42  & 500.00 \\
 \addlinespace[0.1ex]
 \bottomrule
 \end{tabular}
@@ -225,25 +188,25 @@
 \centering
 \renewcommand{\arraystretch}{1.1}
 \tiny
-\begin{tabular}{@{\extracolsep{3pt}}l *{3}{S[table-format=4.0]}@{}}
+\begin{tabular}{@{\extracolsep{3pt}}l *{3}{S[table-format=4.2]}@{}}
 \toprule
 & {\textbf{Cittadino o Equiparabile}} & {\textbf{Regolare}} & {\textbf{Irregolare}} \\
 \midrule
 \addlinespace[0.1ex]
 \multicolumn{4}{@{}l}{\emph{Province}} \\
 \addlinespace[0.05ex]
-\quad Varese         & 1229 & 1056 & 870 \\
-\quad Como           & 1261 & 1064 & 860 \\
-\quad Sondrio        & 1152 & 1006 & 949 \\
-\quad Milano         & 1157 & 1034 & 870 \\
-\quad Bergamo        & 1193 & 1048 & 849 \\
-\quad Brescia        & 1235 & 1102 & 844 \\
-\quad Pavia          & 1114 & 1137 & 906 \\
-\quad Cremona        & 1189 & 1123 & 878 \\
-\quad Mantova        & 1193 & 1072 & 765 \\
-\quad Lecco          & 1183 & 1083 & 827 \\
-\quad Lodi           & 1184 & 1051 & 852 \\
-\quad Monza e Brianza & 1167 & 951  & 833 \\
+\quad Varese         & 1173.04 & 996.09 & 795.87 \\
+\quad Como           & 1232.12 & 1013.01 & 775.19 \\
+\quad Sondrio        & 1123.19 & 981.18  & 905.00 \\
+\quad Milano         & 1136.37 & 987.11  & 799.87 \\
+\quad Bergamo        & 1143.30 & 947.64  & 797.06 \\
+\quad Brescia        & 1204.72 & 1011.94 & 756.91 \\
+\quad Pavia          & 1089.22 & 1017.29 & 763.36 \\
+\quad Cremona        & 1182.01 & 1039.43 & 829.32 \\
+\quad Mantova        & 1148.33 & 999.32  & 732.70 \\
+\quad Lecco          & 1154.42 & 986.49  & 778.41 \\
+\quad Lodi           & 1141.57 & 964.86  & 708.59 \\
+\quad Monza e Brianza & 1142.61 & 900.07  & 739.26 \\
 \addlinespace[0.1ex]
 \bottomrule
 \end{tabular}
@@ -340,7 +303,26 @@
 \subsection{Graphs}
 
 \begin{frame}
-    \frametitle{Graphs}
+    \frametitle{Mean Monthly Wage by Legal Status, 2001-2021}
+    
+\centering
+\includegraphics[width=0.85\textwidth]{images/wage_by_status.png}
+    
+\end{frame}
+
+\begin{frame}
+    \frametitle{Wage Irregular / Regular}
+    
+\centering
+\includegraphics[width=0.85\textwidth]{images/irregolari_vs_regolari.png}
+    
+\end{frame}
+
+\begin{frame}
+    \frametitle{Wage Gap Relative to Citizens (\%)}
+    
+\centering
+\includegraphics[width=0.85\textwidth]{images/wage_gap_relative_to_citizens.png}
     
 \end{frame}
 
