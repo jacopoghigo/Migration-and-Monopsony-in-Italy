@@ -655,5 +655,49 @@ Monza e Brianza & -.176 & .068 & -2.59 & 0.010 & -.310 & -.043 \\
 \end{table}
 \end{frame}
 
+\begin{frame}
+    \frametitle{Logit}
+    
+\vspace{-0.3cm}
+
+\textbf{Estimated Model:}
+\small
+$$
+\text{logit}(P(\text{mobility}_i = 1)) = \beta_0 + \beta_1 D^{\text{low}}_{i} + \beta_2 LS_i + \beta_3 (D^{\text{low}}_{i} \times LS_i)
+$$
+
+\vspace{-0.1cm}
+\tiny{where $D^{\text{low}}_{i} = \mathbf{1}(\text{residual immigrant share}_i < \text{median})$ and $LS_i \in \{\text{Citizen}, \text{Regular}, \text{Irregular}\}$}
+
+\vspace{0.2cm}
+
+\begin{table} \centering
+\tiny
+\begin{tabular}{lrrrr@{\hspace{0.5em}}r@{\hspace{0.5em}}r}
+\hline\hline
+\addlinespace[0.5ex]
+& \multicolumn{6}{c}{\textbf{Delta-method}} \\
+\cmidrule{2-7}
+& \textbf{Margin} & \textbf{std. err.} & \textbf{z} & \textbf{P>|z|} & \multicolumn{2}{c}{\textbf{[95\% conf. interval]}} \\
+\hline
+Above median & .178 & .008 & 22.12 & 0.000 & .163 & .194 \\
+Below median & .466 & .011 & 44.08 & 0.000 & .445 & .486 \\
+\addlinespace[0.5ex]
+Citt. & .260 & .008 & 33.19 & 0.000 & .244 & .275 \\
+Reg. & .420 & .012 & 33.72 & 0.000 & .395 & .444 \\
+Irreg. & .642 & .053 & 12.14 & 0.000 & .539 & .746 \\
+\addlinespace[0.5ex]
+Above median x Citt. & .130 & .009 & 14.86 & 0.000 & .113 & .148 \\
+Above median x Reg. & .257 & .016 & 15.74 & 0.000 & .225 & .289 \\
+Above median x Irreg. & .464 & .094 & 4.93 & 0.000 & .280 & .649 \\
+Below median x Citt. & .394 & .013 & 30.09 & 0.000 & .368 & .419 \\
+Below median x Reg. & .588 & .019 & 31.17 & 0.000 & .551 & .625 \\
+Below median x Irreg. & .826 & .046 & 18.10 & 0.000 & .737 & .916 \\
+\hline\hline
+\end{tabular}
+\caption{Delta-method Margins by Residency Status and Legal Status}
+\end{table}
+\end{frame}
+
 
 \end{document}
